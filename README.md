@@ -1,7 +1,13 @@
-Community_Center
-A team-developed responsive web application built using HTML, CSS, and JavaScript. The app features dynamic DOM manipulation to handle user interactions such as event listings, registration forms, and modals without page reloads. The project emphasizes modular JavaScript, event-driven architecture, and client-side validation. Version control was managed via GitHub for effective collaboration.
+ <h1>Community_Center</h1>
+  <p>
+    A team-developed responsive web application built using HTML, CSS, and JavaScript.
+    The app features dynamic DOM manipulation to handle user interactions such as event listings,
+    registration forms, and modals without page reloads. The project emphasizes modular JavaScript,
+    event-driven architecture, and client-side validation. Version control was managed via GitHub for effective collaboration.
+  </p>
 
-Project Structure:
+  <h2>Project Structure</h2>
+  <pre>
 Community_Center/
 │
 ├── index.html               # Main landing page
@@ -17,9 +23,12 @@ Community_Center/
 └── assets/
     ├── images/              # Images and icons used in UI
     └── fonts/               # Custom fonts (if any)
+  </pre>
 
-Technologies Used:
-HTML5, CSS3 (Flexbox, Grid, Media Queries)
-JavaScript (ES6+) with extensive DOM API usage
-Git for version control, GitHub for collaboration
-Basic form validation and event handling
+  <h2>Technologies Used</h2>
+  <ul class="tech-list">
+    <li>HTML5</li>
+    <li>CSS3 (Flexbox, Grid, Media Queries)</li>
+    <li>JavaScript (ES6+, DOM API)</li>
+    <li>Git & GitHub</li>
+  </ul>
