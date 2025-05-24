@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  article {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+  }
+  
+  article h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.3rem;
+  }
+  
+  article p {
+    margin: 0.5rem 0;
+  }
+  
+  article time {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #FF9517;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  

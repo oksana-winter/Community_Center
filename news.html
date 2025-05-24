@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local News</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Alexandria:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- A page dedicated to local news with a way for everyone to contributre and write articles. -->
+    <div class="nav-container"></div>
+    <div class="main-container">
+        <h1>Local news</h1>
+        <button id="openPopup" class="cta-button">Add new article</button>
+        <ul id="news-list"></ul>
+    </div>
+    <div class="article-container hidden"></div>
+    <div class="side-menu-container"></div>
+    <div class="footer-container"></div>
+
+    <!-- popup for adding new articles -->
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+          <span id="closePopup" class="close">&times;</span>
+          <h2>Add new article</h2>
+          <form action="">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="descr">Description:</label><br>
+            <input type="text" id="descr" name="descr"><br>
+            <label for="text">Text:</label><br>
+            <textarea type="text" id="text" name="text"></textarea><br>
+            <input type="submit" value="Submit">
+          </form> 
+          
+      </div>
+    </div>
+    <script src="news.js" type="module"></script>
+    <script src="commonHTML.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Bern Community Center</title>
+    <link rel="stylesheet" href="contact.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Alexandria:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <img src="images/people.jpg" alt="Community gathering" class="hero-bg">
+      <div class="overlay"></div>
+      <div class="top-bar">
+        <img src="Logo/Logo + Wordmark2 Bern.png" alt="Community Center Logo" class="logo">
+    
+        <nav class="main-nav" id="nav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="eventsPage.html">Event</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="contact-page">
+      <section class="contact-container">
+        <h1>Contact Us</h1>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+              <li><strong>Address:</strong> Marktgasse 46, 3011 Bern</li>
+              <li><strong>Phone:</strong> +41 77 444 30 00</li>
+              <li><strong>Email:</strong> info@berncommunity.ch</li>
+            </ul>
+
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.669374231523!2d7.444970299999999!3d46.9485369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c0d765bae3%3A0x62d64eb9cdd6041!2sMarktgasse%2046%2C%203011%20Bern!5e0!3m2!1str!2sch!4v1746518844437!5m2!1str!2sch"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="https://formsubmit.co/fb180a5f59e8e0d8c7105a453661e61d" method="POST">
+                <!-- Yönlendirme ve başarı mesajı için eklemeler -->
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/home.html">
+                <input type="hidden" name="_autoresponse" value="Your message has been received!">
+                
+                <!-- Mevcut form alanlarınız -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required />
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+        
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required />
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+        
+                <button type="submit">Send</button>
+            </form>
+        </div>      </section>
+    </main>
+    <footer class="footer"> 
+  <div class="container"> 
+    <p>&copy; 2025 Community Center. All rights reserved.</p> 
+    <p>Marktgasse 46, Bern</p> 
+    <div class="social"> 
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Contact</a> 
+    </div> 
+  </div> 
+</footer>
+  </body>
+</html>

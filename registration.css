@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Concert One";
+  src: url("fonts/ConcertOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("fonts/Alexandria-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("fonts/Alexandria-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("fonts/Alexandria-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 100px;
+  height: auto;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome h1 {
+  font-family: "Concert One", sans-serif;
+  color: var(--brand-main);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-family: "Alexandria", sans-serif;
+  font-size: 16px;
+  color: var(--bg-secondary);
+  max-width: 640px;
+  margin: 0 auto 20px;
+  line-height: 1.4;
+}
+
+:root {
+  --brand-main: #ff9517;
+  --brand-secondary: #c4cdac;
+  --bg-primary: #fffef8;
+  --bg-secondary: #171717;
+}
+
+body {
+  font-family: "Alexandria", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--bg-secondary);
+  padding: 40px;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: "Concert One", sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--brand-main);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: var(--brand-main);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--brand-secondary);
+}
+
+#confirmation {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo-fixed {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.center-heading {
+  font-family: "Concert One", sans-serif;
+  color: var(--brand-main);
+  text-align: center;
+}
+
+.center-head {
+  font-family: "Concert One", sans-serif;
+  font-size: 22px;
+  color: var(--brand-main);
+  text-align: center;
+  margin: 10px 0;
+
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.welcome {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}

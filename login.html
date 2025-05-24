@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="welcome">
+      <img
+        src="logo/Logo + Wordmark Bern.svg"
+        alt="Bern Community Center Logo"
+        class="logo-fixed"
+      />
+
+      <h1 class="center-heading">Bern Community Center</h1>
+
+      <h2>Welcome</h2>
+      <p>Please log in to see what's happening in your community.</p>
+    </div>
+
+    <div class="container">
+      <h1>Login</h1>
+      <form id="loginForm">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <button type="submit">Log In</button>
+      </form>
+      <div id="message"></div>
+
+      <!-- Link to registration -->
+      <p>
+        Not registered yet?
+        <a href="registration.html">Create an account here</a>
+      </p>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

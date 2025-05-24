@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration | Bern Community Center</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <div class="welcome">
+      <img
+        src="logo/Logo + Wordmark2 Bern.svg"
+        alt="Bern Community Center Logo"
+        class="logo-fixed"
+      />
+      <h1 class="center-heading">Bern Community Center</h1>
+
+      <p>
+        Join the life of your community — fill in the form below to register.
+      </p>
+    </div>
+    <div class="container">
+      <!-- Form -->
+      <h1 class="center-head">Registration</h1>
+      <form id="registerForm">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your email" required />
+        <input
+          type="password"
+          id="password"
+          placeholder="Create a password"
+          required
+        />
+        <button type="submit">Register</button>
+      </form>
+
+      <div id="confirmation"></div>
+    </div>
+
+    <script src="registration.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+{
+    "news": [
+        {
+          "title": "The local priest wins a jackpot",
+          "imgPath": "./images/priest.jpg",
+          "description": "The beloved parish priest of Bern stunned everyone by winning the national lottery jackpot last Saturday.",
+          "text": "Father Markus, known for his charity work and Sunday sermons, struck luck with a winning ticket. He pledged to donate a large portion of the prize to local shelters and youth programs in the community."
+        },
+        {
+          "title": "Community Garden Celebrates First Harvest",
+          "imgPath": "./images/garden.jpg",
+          "description": "The Bern Community Garden has yielded its first harvest, with dozens of volunteers joining for a celebratory picnic.",
+          "text": "Initiated six months ago, the project aimed to promote sustainability and bring neighbors together. Locals harvested tomatoes, herbs, and greens, which were shared with families in need."
+        },
+        {
+          "title": "Youth Art Exhibition Opens at the Center",
+          "imgPath": "./images/art_exhibit.jpg",
+          "description": "Young artists from Bern display their creativity in a vibrant exhibition hosted by the community center.",
+          "text": "The exhibit showcases paintings, digital art, and sculptures from students aged 12–18. The opening night drew in over 200 attendees and featured live music and refreshments."
+        },
+        {
+          "title": "Free Yoga Classes Every Thursday",
+          "imgPath": "./images/yoga.jpg",
+          "description": "Local instructor offers free yoga sessions at the community center to promote health and mindfulness.",
+          "text": "Classes are open to all age groups and fitness levels. Mats are provided, and sessions take place every Thursday at 6:30 PM in the main hall."
+        },
+        {
+          "title": "Bern’s Oldest Resident Turns 102",
+          "imgPath": "./images/elderly.jpg",
+          "description": "The community came together to celebrate Frau Lotti’s 102nd birthday with cake, music, and warm wishes.",
+          "text": "Lotti, a long-time Bern resident, shared memories of her youth and credited her longevity to walking daily and enjoying chocolate regularly."
+        },
+        {
+          "title": "New Library Corner Opens for Kids",
+          "imgPath": "./images/library.jpg",
+          "description": "The community center has launched a cozy reading area for children, filled with books in German, French, and English.",
+          "text": "The project was made possible through donations and aims to encourage reading habits from an early age. Storytime sessions will be held every Saturday morning."
+        },
+        {
+          "title": "Annual Cleanup Day a Big Success",
+          "imgPath": "./images/cleanup.jpg",
+          "description": "Dozens of Bern residents joined forces to clean parks, paint benches, and plant flowers.",
+          "text": "The community spirit was strong as volunteers of all ages took part. Local businesses provided snacks and refreshments for participants."
+        },
+        {
+          "title": "Senior Choir Performs Spring Concert",
+          "imgPath": "./images/choir.jpg",
+          "description": "The Golden Voices, a senior citizens choir, performed at the community center to a full audience.",
+          "text": "Their repertoire included folk songs and classics. The concert ended with a standing ovation and plans for a holiday performance in December."
+        },
+        {
+          "title": "Teen Robotics Club Wins Regional Award",
+          "imgPath": "./images/robotics.jpg",
+          "description": "Students from the Bern Robotics Club took first place in the regional innovation challenge.",
+          "text": "Their solar-powered robot impressed judges with its efficiency and design. The team was mentored by local engineers and supported by the community center's STEM program."
+        },
+        {
+          "title": "Cooking Workshops Bring Cultures Together",
+          "imgPath": "./images/cooking.jpg",
+          "description": "A series of cooking classes at the center allows participants to explore global cuisines and share stories.",
+          "text": "Each week features a different theme, from Turkish delights to Swiss favorites. The program fosters connection through shared meals and experiences."
+        }
+      ]
+      
+}

@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Alexandria";
+  src: url("fonts/Alexandria-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Concert One";
+  src: url("fonts/ConcertOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+:root {
+  --brand-main: #ff9517;
+  --bg-primary: #fffef8;
+  --bg-secondary: #171717;
+}
+
+.welcome {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.logo-fixed {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.center-heading {
+  font-family: "Concert One", sans-serif;
+  font-size: 28px;
+  color: var(--brand-main);
+  margin: 0 auto 10px;
+}
+
+.welcome h2 {
+  font-family: "Alexandria", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.welcome p {
+  font-family: "Alexandria", sans-serif;
+  font-size: 16px;
+  color: var(--bg-secondary);
+}
+
+body {
+  font-family: "Alexandria", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--bg-secondary);
+  padding: 40px;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: "Concert One", sans-serif;
+  color: var(--brand-main);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: var(--brand-main);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 14px;
+  color: var(--bg-secondary);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container a {
+  color: var(--brand-main);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
