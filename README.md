@@ -32,3 +32,7 @@ Community_Center/
     <li>JavaScript (ES6+, DOM API)</li>
     <li>Git & GitHub</li>
   </ul>
+
+<p>
+  You can check out the project here: <a href="https://github.com/oksana-winter/Community_Center" target="_blank" rel="noopener noreferrer">Community Center on GitHub</a>
+</p>
