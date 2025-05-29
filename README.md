@@ -34,5 +34,5 @@ Community_Center/
   </ul>
 
 <p>
-  You can check out the project here: <a href="https://github.com/oksana-winter/Community_Center" target="_blank" rel="noopener noreferrer">Community Center on GitHub</a>
+  You can check out the project here: <a href="https://oksana-winter.github.io/Community_Center/home.html" target="_blank" rel="noopener noreferrer">Community Center on GitHub</a>
 </p>
